@@ -4,9 +4,11 @@ import ItemComponent from './item/ItemComponent.jsx'
 
 const BodyComponent = () => {
     return (
-        <div className='container mx-auto mt-5'>
-            <BannerComponent />
-            <ItemComponent />
+        <div className='my-5'>
+            <div className='container mx-auto'>
+                <BannerComponent />
+                <ItemComponent />
+            </div>
         </div>
     )
 }

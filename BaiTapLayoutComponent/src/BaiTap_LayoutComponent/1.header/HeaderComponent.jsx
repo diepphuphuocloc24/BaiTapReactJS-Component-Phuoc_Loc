@@ -3,8 +3,8 @@ import React from 'react'
 const HeaderComponent = () => {
     return (
         <div>
-            <nav className="bg-gray-800 border-gray-200 dark:bg-gray-800 container mx-auto">
-                <div className="flex flex-wrap items-center justify-between mx-auto p-4">
+            <nav className="bg-gray-800 border-gray-200 dark:bg-gray-800">
+                <div className="flex flex-wrap items-center justify-between mx-auto p-4 container">
                     <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
                         <p className="self-center text-2xl font-semibold whitespace-nowrap text-white">Start Boostrap</p>
                     </a>
@@ -26,21 +26,21 @@ const HeaderComponent = () => {
                             </li>
                             <li>
                                 <a href="#"
-                                    className="block py-2 px-3 text-gray-400 md:p-0 hover:text-white"
+                                    className="block py-2 px-3 text-gray-400 md:p-0 hover:text-white transition-all duration-300"
                                 >
                                     About
                                 </a>
                             </li>
                             <li>
                                 <a href="#"
-                                    className="block py-2 px-3 text-gray-400 md:p-0 hover:text-white"
+                                    className="block py-2 px-3 text-gray-400 md:p-0 hover:text-white transition-all duration-300"
                                 >
                                     Services
                                 </a>
                             </li>
                             <li>
                                 <a href="#"
-                                    className="block py-2 px-3 text-gray-400 md:p-0 hover:text-white"
+                                    className="block py-2 px-3 text-gray-400 md:p-0 hover:text-white transition-all duration-300"
                                 >
                                     Contact
                                 </a>
